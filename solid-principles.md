@@ -1,14 +1,26 @@
-# ⚙️ **2. SOLID Principles**
+# **S.O.L.I.D Principles**
 
-## 📘 **Overview**
+## **Overview**
 
-The **SOLID principles** are **five key rules** in object-oriented programming that make your code:
+The **S.O.L.I.D principles** are a set of five key guidelines for designing object-oriented software systems. These principles were:
 
-* **Easier to understand**
-* **Easier to maintain**
-* **Easier to extend** without breaking existing code
+* **First introduced** by the renowned computer scientist **Robert C. Martin**, commonly known as *Uncle Bob*.
+* The **acronym "S.O.L.I.D"** was later coined by **Michael Feathers** to help remember the five principles.
 
-They act as a **guideline** for writing clean and reliable software — and are the **base for many design patterns**.
+These principles serve as a **foundation for writing clean, maintainable, and scalable object-oriented code**. They provide a **set of rules and best practices** that guide developers in designing class structures that are robust and easy to manage.
+
+---
+
+## **Why Use S.O.L.I.D?**
+
+> **"To create understandable, readable, and testable code that many developers can collaboratively work on."**
+
+By adhering to the S.O.L.I.D principles, teams can:
+
+* Reduce complexity in codebases
+* Enhance code readability and testability
+* Make systems easier to maintain and extend
+* Encourage better collaboration among developers
 
 ---
 
