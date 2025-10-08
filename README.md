@@ -16,12 +16,12 @@ Creational patterns deal with **object creation mechanisms**, trying to create o
 
 | **S. No.** | **Pattern Name**                                               | **Description**                                                                                                      |
 | ---------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **3**      | [Singleton Pattern](/designpatterns/singleton.md)              | Ensures that a class has only one instance and provides a global point of access to it.                              |
-| **4**      | [Factory Method Pattern](/designpatterns/factorymethod.md)     | Defines an interface for creating an object but allows subclasses to alter the type of objects that will be created. |
-| **5**      | [Abstract Factory Pattern](/designpatterns/abstractfactory.md) | Creates families of related or dependent objects without specifying their concrete classes.                          |
-| **6**      | [Builder Pattern](/designpatterns/builder.md)                  | Separates object construction from its representation to build complex objects step-by-step.                         |
-| **7**      | [Prototype Pattern](/designpatterns/prototype.md)              | Creates new objects by copying existing ones instead of creating from scratch.                                       |
-| **8**      | [Object Pool Pattern](/designpatterns/objectpool.md)           | Manages reusable objects for resource-intensive operations.                                                          |
+| **3**      | [Singleton Pattern](/singleton.md)              | Ensures that a class has only one instance and provides a global point of access to it.                              |
+| **4**      | [Factory Method Pattern](/factorymethod.md)     | Defines an interface for creating an object but allows subclasses to alter the type of objects that will be created. |
+| **5**      | [Abstract Factory Pattern](/abstractfactory.md) | Creates families of related or dependent objects without specifying their concrete classes.                          |
+| **6**      | [Builder Pattern](/builder.md)                  | Separates object construction from its representation to build complex objects step-by-step.                         |
+| **7**      | [Prototype Pattern](/prototype.md)              | Creates new objects by copying existing ones instead of creating from scratch.                                       |
+| **8**      | [Object Pool Pattern](/objectpool.md)           | Manages reusable objects for resource-intensive operations.                                                          |
 
 ---
 
@@ -31,14 +31,14 @@ Structural patterns deal with **class and object composition** — how classes a
 
 | **S. No.** | **Pattern Name**                                                  | **Description**                                                                |
 | ---------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| **9**      | [Adapter Pattern](/designpatterns/adapter.md)                     | Allows incompatible interfaces to work together by acting as a bridge.         |
-| **10**     | [Bridge Pattern](/designpatterns/bridge.md)                       | Decouples abstraction from implementation so both can vary independently.      |
-| **11**     | [Composite Pattern](/designpatterns/composite.md)                 | Composes objects into tree structures to represent part-whole hierarchies.     |
-| **12**     | [Decorator Pattern](/designpatterns/decorator.md)                 | Dynamically adds new behaviors to objects without altering existing structure. |
-| **13**     | [Facade Pattern](/designpatterns/facade.md)                       | Provides a simplified interface to a complex subsystem.                        |
-| **14**     | [Flyweight Pattern](/designpatterns/flyweight.md)                 | Minimizes memory usage by sharing common object data across instances.         |
-| **15**     | [Proxy Pattern](/designpatterns/proxy.md)                         | Provides a surrogate or placeholder for another object to control access.      |
-| **16**     | [Private Class Data Pattern](/designpatterns/privateclassdata.md) | Restricts direct access to class data and ensures data integrity.              |
+| **9**      | [Adapter Pattern](/adapter.md)                     | Allows incompatible interfaces to work together by acting as a bridge.         |
+| **10**     | [Bridge Pattern](/bridge.md)                       | Decouples abstraction from implementation so both can vary independently.      |
+| **11**     | [Composite Pattern](/composite.md)                 | Composes objects into tree structures to represent part-whole hierarchies.     |
+| **12**     | [Decorator Pattern](/decorator.md)                 | Dynamically adds new behaviors to objects without altering existing structure. |
+| **13**     | [Facade Pattern](/facade.md)                       | Provides a simplified interface to a complex subsystem.                        |
+| **14**     | [Flyweight Pattern](/flyweight.md)                 | Minimizes memory usage by sharing common object data across instances.         |
+| **15**     | [Proxy Pattern](/proxy.md)                         | Provides a surrogate or placeholder for another object to control access.      |
+| **16**     | [Private Class Data Pattern](/privateclassdata.md) | Restricts direct access to class data and ensures data integrity.              |
 
 ---
 
