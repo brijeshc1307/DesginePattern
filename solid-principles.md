@@ -36,9 +36,17 @@ By adhering to the S.O.L.I.D principles, teams can:
 
 ---
 
-## 🧩 **1. Single Responsibility Principle (SRP)**
+## **1. Single Responsibility Principle (SRP)**
 
 > A class should do **only one job** and have **one reason to change**.
+
+Every class should have a **single, well-defined responsibility**. This improves clarity, reduces coupling, and makes maintenance easier.
+
+
+### Simple Idea:
+
+Think of a **remote control**: one button for volume, one for channel. If one button did *everything*, it would be confusing.
+
 
 ### ❌ Bad Example
 
