@@ -107,6 +107,13 @@ public:
 
 > Classes should be **open for extension** but **closed for modification**.
 
+Systems should be designed so that new functionality can be **added without modifying existing code**, often achieved through abstraction and polymorphism.
+
+### Simple Idea:
+
+Imagine a **phone** where you can add new apps (extend) without opening the device (modifying it).
+
+
 ### ❌ Bad Example
 
 ```cpp
