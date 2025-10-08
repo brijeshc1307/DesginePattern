@@ -5,7 +5,7 @@ Use this as a structured roadmap to master reusable software design principles a
 
 | **S. No.** | **Pattern Name**                                                   | **Category** | **Description**                                                                           |
 | ---------- | ------------------------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------- |
-| **1**      | [Introduction to Design Patterns](/designpatterns/introduction.md) | Overview     | What are design patterns, their importance, and classification in software development.   |
+| **1**      | [Introduction to Design Patterns](/introduction.md) | Overview     | What are design patterns, their importance, and classification in software development.   |
 | **2**      | [SOLID Principles](/designpatterns/solid-principles.md)            | Overview     | The five key principles (SRP, OCP, LSP, ISP, DIP) that guide good object-oriented design. |
 
 ---
