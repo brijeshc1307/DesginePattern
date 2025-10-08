@@ -24,7 +24,7 @@ By adhering to the S.O.L.I.D principles, teams can:
 
 ---
 
-## 🔠 **What Does SOLID Stand For?**
+## **What Does SOLID Stand For?**
 
 | **Letter** | **Principle**                         | **Meaning**                                                                 |
 | ---------- | ------------------------------------- | --------------------------------------------------------------------------- |
@@ -103,7 +103,7 @@ public:
 
 ---
 
-## 🧩 **2. Open/Closed Principle (OCP)**
+## **2. Open/Closed Principle (OCP)**
 
 > Classes should be **open for extension** but **closed for modification**.
 
@@ -165,9 +165,17 @@ void printArea(Shape* s) {
 
 ---
 
-## 🧩 **3. Liskov Substitution Principle (LSP)**
+## **3. Liskov Substitution Principle (LSP)**
 
 > Subclasses should **replace** their base classes **without breaking** functionality.
+
+ Objects of a subclass should be able to **replace objects of the superclass** without affecting the program’s behavior. This ensures that inheritance is used correctly.
+
+
+### Simple Idea:
+
+If a **bird** can fly, any specific bird (e.g., sparrow) should also fly. But a **penguin** can’t fly — so it **shouldn’t be a subclass of flying birds**.
+
 
 ### ❌ Bad Example
 
@@ -209,9 +217,16 @@ public:
 
 ---
 
-## 🧩 **4. Interface Segregation Principle (ISP)**
+## **4. Interface Segregation Principle (ISP)**
 
 > Don’t force a class to **implement interfaces it doesn’t use**.
+
+Favor **many small, specific interfaces** over one large, general-purpose interface. This helps keep implementations clean and focused.
+
+###  Simple Idea:
+
+Don’t make a **printer** class also handle scanning and faxing if it doesn’t need to.
+
 
 ### ❌ Bad Example
 
@@ -253,10 +268,17 @@ public:
 
 ---
 
-## 🧩 **5. Dependency Inversion Principle (DIP)**
+## **5. Dependency Inversion Principle (DIP)**
 
 > High-level modules should not depend on low-level modules;
 > both should depend on **abstractions**.
+
+Code should depend on **interfaces or abstract classes**, not on concrete implementations. This **reduces tight coupling** and increases flexibility.
+
+### Simple Idea:
+
+If you're making tea, you don't care which **brand of kettle** boils the water — just that it does the job.
+
 
 ### ❌ Bad Example
 
