@@ -1,11 +1,4 @@
-Excellent, Brijesh! 🔥
-Let’s continue your **Design Patterns series** with another important creational pattern — the **Abstract Factory Pattern** — explained step-by-step with **simple English** and **C++ example code**.
-
----
-
-# 🏢 Topic 5: Abstract Factory Pattern (Creational Design Pattern)
-
-## 🧠 Overview
+# Abstract Factory Pattern (Creational Design Pattern)
 
 The **Abstract Factory Pattern** is an advanced version of the **Factory Method Pattern**.
 
@@ -13,11 +6,11 @@ While a **Factory Method** creates one type of object,
 an **Abstract Factory** creates **families (groups) of related objects** — without specifying their concrete classes.
 
 In simple words:
-➡️ “A factory of factories” that can create a set of related products that belong together.
+> “A factory of factories” that can create a set of related products that belong together.
 
 ---
 
-## 🎯 Real-Life Example
+##  Real-Life Example
 
 Imagine a company that makes **UI components** for two operating systems:
 
@@ -31,7 +24,7 @@ It lets you create related objects (like Button + Checkbox) for a specific platf
 
 ---
 
-## ⚙️ Key Idea
+##  Key Idea
 
 1. Define **interfaces** for families of products.
 2. Create **concrete factories** that make related products.
@@ -39,7 +32,7 @@ It lets you create related objects (like Button + Checkbox) for a specific platf
 
 ---
 
-## 🧩 C++ Example (Simple and Clear)
+##  C++ Example (Simple and Clear)
 
 ```cpp
 #include <iostream>
@@ -161,7 +154,7 @@ So, you can **easily switch between Windows and Mac UI** without changing your m
 
 ---
 
-## 🧠 When to Use Abstract Factory
+##  When to Use Abstract Factory
 
 * When you want to create **families of related objects** (like themes, UIs, database connections).
 * When your system should be **independent of how products are created**.
@@ -181,7 +174,7 @@ So, you can **easily switch between Windows and Mac UI** without changing your m
 
 ---
 
-✅ **Quick Comparison:**
+ **Quick Comparison:**
 
 | Pattern          | Creates                     | Example                    |
 | ---------------- | --------------------------- | -------------------------- |
@@ -190,4 +183,4 @@ So, you can **easily switch between Windows and Mac UI** without changing your m
 
 ---
 
-Would you like me to continue next with **Topic 6: Builder Pattern (Creational Design Pattern)** — in the same easy style (clear explanation + simple C++ code)?
+
