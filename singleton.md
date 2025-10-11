@@ -1,6 +1,4 @@
-# 🎯 Topic 3: Singleton Pattern (Creational Design Pattern)
-
-## 🧠 Overview
+# Singleton Pattern (Creational Design Pattern)
 
 The **Singleton Pattern** is one of the most commonly used *Creational Design Patterns*.
 Its main goal is to **ensure that only one object (instance)** of a class is created and that it is **accessible globally** throughout the program.
@@ -9,7 +7,7 @@ You can think of it like a **single manager** in a company — only one manager 
 
 ---
 
-## ⚙️ Why Use Singleton?
+##  Why Use Singleton?
 
 We use a Singleton when:
 
@@ -25,7 +23,7 @@ We use a Singleton when:
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
 1. **Private constructor** → Prevents direct object creation using `new`.
 2. **Static instance pointer** → Holds the single object of the class.
@@ -33,7 +31,7 @@ We use a Singleton when:
 
 ---
 
-## 🧱 C++ Example (Simple and Clear)
+## C++ Example (Simple and Clear)
 
 ```cpp
 #include <iostream>
@@ -89,7 +87,7 @@ int main() {
 
 ---
 
-## 🧾 Output
+## Output
 
 ```
 Singleton instance created!
@@ -99,7 +97,7 @@ Both pointers point to the same instance!
 
 ---
 
-## 🧩 Explanation (In Simple Words)
+## Explanation (In Simple Words)
 
 * When `getInstance()` is called the first time → it creates one object.
 * The next time you call `getInstance()` → it returns the **same old object**.
@@ -107,7 +105,7 @@ Both pointers point to the same instance!
 
 ---
 
-## 🔒 Thread-Safe Singleton (Modern C++11 version)
+## Thread-Safe Singleton (Modern C++11 version)
 
 ```cpp
 #include <iostream>
@@ -142,7 +140,7 @@ int main() {
 
 ---
 
-## 🏁 Summary
+## Summary
 
 | **Concept** | **Description**                                     |
 | ----------- | --------------------------------------------------- |
