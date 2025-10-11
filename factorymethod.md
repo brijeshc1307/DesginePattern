@@ -1,6 +1,5 @@
-# 🏭 Topic 4: Factory Method Pattern (Creational Design Pattern)
+# Factory Method Pattern (Creational Design Pattern)
 
-## 🧠 Overview
 
 The **Factory Method Pattern** is another *Creational Design Pattern* that provides an **interface for creating objects**, but **lets subclasses decide which class to instantiate**.
 
@@ -9,7 +8,7 @@ In simple words:
 
 ---
 
-## 🎯 Real-Life Example
+## Real-Life Example
 
 Imagine a **vehicle factory**.
 You ask the factory for a vehicle type (like *Car* or *Bike*).
@@ -19,7 +18,7 @@ Similarly, in C++, a Factory Method hides object creation details and provides f
 
 ---
 
-## ⚙️ Key Idea
+##  Key Idea
 
 * Define an **interface (base class)** for creating objects.
 * Let **derived classes** decide which object to create.
@@ -27,7 +26,7 @@ Similarly, in C++, a Factory Method hides object creation details and provides f
 
 ---
 
-## 🧩 C++ Example (Simple and Clear)
+##  C++ Example (Simple and Clear)
 
 ```cpp
 #include <iostream>
@@ -106,7 +105,7 @@ So, if tomorrow you add a **Truck** class, you can just update the factory — n
 
 ---
 
-## 🧠 When to Use Factory Method
+## When to Use Factory Method
 
 * When the exact type of object to create is **determined at runtime**.
 * When you want to **avoid tight coupling** between code and object creation.
