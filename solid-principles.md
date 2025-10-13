@@ -65,6 +65,16 @@ public:
         file << "Saving report to file...";
     }
 };
+int main() {
+    Report report;
+
+    report.generateReport();   // Display message
+    report.saveToFile();       // Save to file
+
+    cout << "Report saved to report.txt\n";
+
+    return 0;
+}
 ```
 
 ➡️ The class `Report` is doing **two jobs**:
@@ -97,6 +107,19 @@ public:
         file << "Saving report to file...";
     }
 };
+
+int main() {
+    Report report;
+    FileSaver fileSaver;
+
+    report.generateReport();   // Display report generation message
+    fileSaver.saveReport();    // Save report to file
+
+    cout << "Report saved to report.txt\n";
+
+    return 0;
+}
+
 ```
 
 ➡️ Each class now has a **single responsibility**.
