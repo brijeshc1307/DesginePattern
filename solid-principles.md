@@ -148,6 +148,23 @@ public:
         return 0;
     }
 };
+
+int main() {
+    AreaCalculator calc;
+
+    double rectWidth = 10;
+    double rectHeight = 5;
+    double triangleBase = 8;
+    double triangleHeight = 4;
+
+    cout << "Rectangle Area: " << calc.area("rectangle", rectWidth, rectHeight) << endl;
+    cout << "Triangle Area: " << calc.area("triangle", triangleBase, triangleHeight) << endl;
+
+    // Unknown shape test
+    cout << "Circle Area: " << calc.area("circle", 10, 0) << endl;
+
+    return 0;
+}
 ```
 
 ➡️ If we add a new shape (circle, hexagon), we must **modify** this class — breaking OCP.
@@ -185,6 +202,60 @@ void printArea(Shape* s) {
 ```
 
 ➡️ To add a new shape (like Circle), you **extend** the code (create a new class) without modifying existing ones.
+
+or
+```cpp
+#include <iostream>
+using namespace std;
+
+// Abstract base class
+class Shape {
+public:
+    virtual double area() = 0;  // Pure virtual function
+    
+};
+
+class Rectangle : public Shape {
+    double w, h;
+public:
+    Rectangle(double width, double height) {
+        w = width;
+        h = height;
+    }
+
+    double area() {
+        return w * h;
+    }
+};
+
+class Triangle : public Shape {
+    double b, h;
+public:
+    Triangle(double base, double height) {
+        b = base;
+        h = height;
+    }
+
+    double area() {
+        return 0.5 * b * h;
+    }
+};
+
+void printArea(Shape* s) {
+    cout << "Area: " << s->area() << endl;
+}
+
+int main() {
+    Rectangle r(10, 5);
+    Triangle t(8, 4);
+
+    printArea(&r);
+    printArea(&t);
+
+    return 0;
+}
+
+```
 
 ---
 
