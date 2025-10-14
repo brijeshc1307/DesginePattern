@@ -449,5 +449,4 @@ int main() {
 
 ---
 
-Would you like me to continue with
-**Topic 3: Singleton Pattern (Creational Design Pattern)** — the first real design pattern in the list, explained in simple English with C++ code?
+
