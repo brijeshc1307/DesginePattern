@@ -437,7 +437,7 @@ int main() {
 
 ---
 
-## 🏁 **Summary Table**
+## **Summary Table**
 
 | **Principle** | **Key Idea**          | **Example Concept**                           |
 | ------------- | --------------------- | --------------------------------------------- |
@@ -448,5 +448,15 @@ int main() {
 | **D**         | Dependency Inversion  | Depend on abstractions, not concrete classes  |
 
 ---
+---
+
+---
+
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+Happy Coding!
 
 
