@@ -152,4 +152,13 @@ int main() {
 
 ---
 
-Would you like me to continue next with **Topic 4: Factory Method Pattern (Creational Design Pattern)** in the same simple style (with explanation + C++ code)?
+---
+
+---
+
+## **License**
+This project is licensed under the MIT License.
+
+---
+
+Happy Coding!
